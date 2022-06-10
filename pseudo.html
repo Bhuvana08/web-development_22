@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+
+      a:hover{
+        background-color: aquamarine;
+        text-decoration: overline;
+      }
+      body{
+        margin: 0;
+      }
+      ul li{
+        list-style: none;
+        display: inline-block;
+      }
+      ul li a{
+        color: grey;
+        text-decoration: none;
+      }
+      ul li a:hover{
+        color: green;
+      }
+      ul li a:active{
+        color:red;
+      }
+      ul li:first-child a{
+        color:hotpink;
+      }
+      ul li:last-child a{
+        color:brown;
+      }
+      ul li:nth-child(3) a{
+        color:orange;
+      }
+      p::first-letter{
+        font-size: 50px;
+        color:red;
+      }
+      p::first-line{
+        color:brown;
+      }
+      ul li::before{
+        content: "|";
+      }
+      ul li::before{
+        content: "|";
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">Home</a> </li>
+      <li><a href="#">About</a> </li>
+      <li><a href="#">Services</a> </li>
+      <li><a href="#">Contact</a> </li>
+    </ul>
+    <p>This webpage is about pseudo classes and
+    pseudo elements.
+    Pseudo class is uesed to define special state of elements
+    Pseudo element is used to style specified parts of an element.
+   This webpage describes various pseudo classes like hover,first-child,nth child and
+    pseudo elements like first-letter,first-child,before and after.</p>
+  </body>
+</html>

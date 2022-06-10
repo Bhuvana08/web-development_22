@@ -1,0 +1,21 @@
+h3{
+  color:green;
+  text-decoration: overline;
+  text-decoration:underline;
+  text-transform:uppercase;
+  text-align:left;
+}
+table{
+  color: violet;
+  letter-spacing: 2px;
+  font-size: 17px;
+}
+h1{
+  color: black;
+}
+th{
+  color: red;
+}
+p{
+  color:violet
+}
